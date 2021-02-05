@@ -104,12 +104,12 @@ document.getElementById("answerOne").addEventListener("click", function () {
     if (questions[i]["choices"][0] === questions[i]["answer"]) {
         messageDiv.textContent = "Correct!";
         score++;
-        correctSound.play();
+        
     }
     else {
         messageDiv.textContent = "Wrong!";
         secondsLeft -= 10;
-        incorrectSound.play();
+        
     }
     i++;
     questionSetter();
@@ -119,12 +119,12 @@ document.getElementById("answerTwo").addEventListener("click", function () {
     if (questions[i]["choices"][1] === questions[i]["answer"]) {
         messageDiv.textContent = "Correct!";
         score++;
-        correctSound.play();
+        
     }
     else {
         messageDiv.textContent = "Wrong!";
         secondsLeft -= 10;
-        incorrectSound.play();
+        
     }
     i++;
     questionSetter();
@@ -134,12 +134,12 @@ document.getElementById("answerThree").addEventListener("click", function () {
     if (questions[i]["choices"][2] === questions[i]["answer"]) {
         messageDiv.textContent = "Correct!";
         score++;
-        correctSound.play();
+        
     }
     else {
         messageDiv.textContent = "Wrong!";
         secondsLeft -= 10;
-        incorrectSound.play();
+        
     }
     i++;
     questionSetter();
@@ -149,12 +149,12 @@ document.getElementById("answerFour").addEventListener("click", function () {
     if (questions[i]["choices"][3] === questions[i]["answer"]) {
         messageDiv.textContent = "Correct!";
         score++;
-        correctSound.play();
+        
     }
     else {
         messageDiv.textContent = "Wrong!";
         secondsLeft -= 10;
-        incorrectSound.play();
+        
     }
     i++;
     questionSetter();
