@@ -54,7 +54,7 @@ function questionEnder() {
         highScoreText.name = inputTag.value.trim();
         highScoreText.newScore = score;
         storeScores(highScoreText);
-        window.location.href = "highScores.html";
+        window.location.href = "scorelist.html";
     });
 }
 function questionSetter() {
